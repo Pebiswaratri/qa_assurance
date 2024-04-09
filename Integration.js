@@ -3,8 +3,8 @@ import {check,group,sleep} from 'k6'
 
 
 export default function(){
-    const name = "pei"
-    const job = "qa"
+    const name = "pei";
+    const job = "qa";
 
 
     group('Create User Scenarios', function(){
